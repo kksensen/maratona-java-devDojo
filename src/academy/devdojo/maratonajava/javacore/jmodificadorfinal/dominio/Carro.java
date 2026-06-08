@@ -1,0 +1,19 @@
+package academy.devdojo.maratonajava.javacore.jmodificadorfinal.dominio;
+
+public class Carro {
+    private String nome;
+    public static final double VELOCIDADE_LIMITE = 250;
+    public final Comprador COMPRADOR = new Comprador();
+
+    public String getNome() {
+        return nome;
+    }
+
+    public final void imprime(){
+        System.out.println("Hey");
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+}
